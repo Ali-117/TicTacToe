@@ -31,7 +31,8 @@ class _MyHomePageState extends State<MyHomePage> {
     SizedBox(
     height: 300,
     width: 300,
-    ),
+        child: new Image.asset('images/ali.jpeg')),
+
     SizedBox(height: 20),
     Text(
     "Ali Hamza"
