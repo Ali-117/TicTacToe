@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'myhomepage.dart';
 void main() {
@@ -21,3 +23,18 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class MyHomePage extends StatelessWidget{
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('icon change'),
+
+      ),
+      body: Center(
+        child: Text('icon change'),
+      ),
+    );
+
+  }
+}
