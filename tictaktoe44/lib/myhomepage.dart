@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
+
 import 'menu.dart';
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key}) : super(key: key);
@@ -32,16 +32,44 @@ class _MyHomePageState extends State<MyHomePage> {
     height: 300,
     width: 300,
         child: new Image.asset('images/ali.jpeg')),
+      SizedBox(height: 50),
+      Text(
+        "Welcome"
+            "FA17_BCS_117",
+        style: TextStyle(fontSize: 75, fontWeight: FontWeight.bold),
 
+
+
+      ),
     SizedBox(height: 20),
     Text(
     "Ali Hamza"
-    "FA_BCS_117",
+    "FA17_BCS_117",
     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
 
 
 
     ),
+      SizedBox(
+          height: 50,
+          width: 50,
+          child: new Image.asset('..images/fb.png')),
+      SizedBox(
+          height: 50,
+          width: 50,
+          child: new Image.asset('..images/twi.png')),
+      SizedBox(
+          height: 50,
+          width: 50,
+          child: new Image.asset('..images/yt.png')),
+      SizedBox(
+          height: 50,
+          width: 50,
+          child: new Image.asset('..images/in.png')),
+      SizedBox(
+          height: 50,
+          width: 50,
+          child: new Image.asset('..images/g.png')),
       ],
 
     ),
